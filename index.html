@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header><h1>Verificador de Idade</h1></header>
+    <section>
+        <div>
+            Ano de Nascimento:
+            <input type="number" name="year" id="age" min="0">
+                    </div>
+        <div>
+            <p> Sexo
+            <input type="radio" name="sex" id="masc" checked>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="sex" id="fem">
+            <label for="fem">Feminino</label>
+            </p>   
+            <p>
+            <input type="button" value="Verificar" onclick="check()">    
+            </p>
+
+        </div>
+        <div id="center">
+          <img id="image"> 
+          <p id="result">  Preencha os dados acima para verificar a idade.</p>
+            
+
+        </div>
+    </section>
+
+
+    <footer>&copy; Thiago Marquete</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
